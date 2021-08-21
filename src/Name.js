@@ -1,6 +1,7 @@
-function Name() {
+function Name(props) {
     return(
-        <h1>Hello everyone</h1>
+        <h3>{props.place}</h3>
     )
+
 }
 export default Name;
